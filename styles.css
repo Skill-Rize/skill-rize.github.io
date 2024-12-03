@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
@@ -12,7 +11,6 @@ body {
 .navbar {
     padding: 0;
     margin-bottom: 4em;
-    
 }
 .navbar li {
     width: 19%;
@@ -148,10 +146,4 @@ body {
 #coursestructdiv {
     margin-left: 8%;
     margin-right: 8%;
-    
 }
-
-
-
-
-
