@@ -112,7 +112,7 @@ let prev_window = "";
 let fin = 0;
 
 function finish() {
-    window.location.href = window.location.href.add("/practice.html");
+    window.location.href = "practice.html";
 }
 
 function change_question(medallion, question) {
