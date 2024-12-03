@@ -126,11 +126,11 @@ function change_question(medallion, question) {
         localStorage.setItem("questionsaeng", JSON.stringify(questionsaeng));
         localStorage.setItem("questionsamath", JSON.stringify(questionsamath));
         localStorage.setItem("prev_window", JSON.stringify("/index.html"));
-        window.location.href = `${window.location.href}/practice.html`;
+        window.location.href = practice,html;
 
     }
 
-    if (window.location.pathname.split("/").pop() == "practice.html") {
+    if (window.location.href.includes("practice.html")) {
         console.log("b");
         subject = JSON.parse(localStorage.getItem("subject"));
         prev_window = JSON.parse(localStorage.getItem("prev_window"));
