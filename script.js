@@ -122,7 +122,7 @@ function change_question(medallion, question) {
         localStorage.setItem("medallion", JSON.stringify(medallion));
         localStorage.setItem("question", JSON.stringify(question));
         localStorage.setItem("questionseng", JSON.stringify(questionseng));
-        localStorage.setItem("questionsmath", JSON.stringify(questionseng));
+        localStorage.setItem("questionsmath", JSON.stringify(questionsmath));
         localStorage.setItem("questionsaeng", JSON.stringify(questionsaeng));
         localStorage.setItem("questionsamath", JSON.stringify(questionsamath));
         localStorage.setItem("prev_window", JSON.stringify("/index.html"));
