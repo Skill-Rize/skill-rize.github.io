@@ -130,7 +130,7 @@ function change_question(medallion, question) {
 
     }
 
-    if (window.location.href == "index.html') {
+    if (window.location.href == "index.html") {
         console.log("b");
         subject = JSON.parse(localStorage.getItem("subject"));
         prev_window = JSON.parse(localStorage.getItem("prev_window"));
