@@ -117,7 +117,7 @@ function finish() {
 
 function change_question(medallion, question) {
     console.log("aa");
-    if (window.location.href == "skill-rize.github.io/") {
+    if (window.location.href.includes("skill-rize")) {
         console.log("a");
         localStorage.setItem("medallion", JSON.stringify(medallion));
         localStorage.setItem("question", JSON.stringify(question));
@@ -126,7 +126,8 @@ function change_question(medallion, question) {
         localStorage.setItem("questionsaeng", JSON.stringify(questionsaeng));
         localStorage.setItem("questionsamath", JSON.stringify(questionsamath));
         localStorage.setItem("prev_window", JSON.stringify("/index.html"));
-        window.location.href = window.location.href.add("/practice.html");
+        window.location.href = `${window.location.href}/practice.html`;
+
     }
 
     if (window.location.pathname.split("/").pop() == "practice.html") {
