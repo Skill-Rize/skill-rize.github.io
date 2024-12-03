@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #3e3e3eff;
+}
+
+.topbar {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-bottom: solid;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    gap: 5%;
+    font-size: 5vw;
+}
+
+.quit {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#progbarback {
+    background-color: lightgreen;
+    width: 0%;
+    height: 100%;
+}
+
+.progbar {
+    width: 80%;
+    background-color: gray;
+}
+
+.question {
+    font-size: 10vw;
+    margin-left: 10%;
+}
+
+.answers {
+    margin-top: 10%;
+}
+
+.answers ul {
+    list-style-type: none;
+    margin-right: 10%;
+}
+
+.answers ul li {
+    display: flex;
+    gap: 10%;
+    font-size: 3vw;
+    margin-bottom: 5%;
+}
+
+.answers ul li button {
+    font-size: 5vw;
+}
+
+#submit_button button {
+    font-size: 5vw;
+    padding: 5%;
+    border-radius: 10%;
+}
+
+button {
+    font-size: 10vw;
+    background-color: #3e3e3eff;
+    border: none;
+    cursor: pointer;
+}
+
+#button {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10%;
+}
+
+#continue {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10%;
+    z-index: -1;
+}
+
+
