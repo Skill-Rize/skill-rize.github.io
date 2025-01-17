@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="stylesheet" href="practice_styles.css" />
+    </head>
+    <body onload="change_question(1, 1)">
+        <div class="topbar">
+            <a class="quit" href="index.html"> X </a>
+            <div class="progbar">
+                <div id="progbarback"></div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div id="question_text">Hello!</div>
+            <div class="answers">
+                <ul>
+                    <li><button onclick="change_answer(1)" id="a1">A. Hi!</button></li>
+                    <li><button onclick="change_answer(2)" id="a2">B. Bye!</button></li>
+                    <li><button onclick="change_answer(3)" id="a3">C. Bonjour!</button></li>
+                    <li><button onclick="change_answer(4)" id="a4">D. Hola!</button></li>
+                </ul>
+            </div>
+        </div>
+        <div id="submit_button">
+            <button id="button" onclick="submit()">SUBMIT</button>
+            <button
+                id="continue"
+                onclick="change_question(JSON.parse(localStorage.getItem('medallion'))), 2">
+                Continue
+            </button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
